@@ -1,0 +1,14 @@
+var first="kishore";
+var second="kumar";
+var third=first.concat(second);
+console.log(third);
+document.getElementById("eg1").innerHTML=third;
+var fruits=["mango","grapes","orange"];
+fruits.push("banana");
+fruits.pop();
+fruits.unshift("banana");
+fruits.reverse();
+document.getElementById("eg2").innerHTML=fruits;
+var number=["10","100","25"];
+var minimum=Math.min.apply(Math,number);
+document.getElementById("eg3").innerHTML=minimum;
